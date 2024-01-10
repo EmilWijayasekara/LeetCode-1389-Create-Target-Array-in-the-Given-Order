@@ -64,10 +64,11 @@ Output: [1]
 -   `0 <= nums[i] <= 100`
 -   `0 <= index[i] <= i`
 
+
 ## Approach Explanation
 
 By utilizing an `ArrayList` to dynamically build the target array. For each element in the given `nums` array and its corresponding index in the `index` array, I used the `ArrayList`'s `add` method to insert the value at the specified index. This way, I iterated through the arrays, progressively constructing the target array according to the given rules.
 
 After completing the insertion process, I copied the elements from the ArrayList back to the original `nums` array. This final array represents the target array formed through the sequential insertions based on the specified indices. My approach aims for clarity and simplicity, leveraging the ArrayList's flexibility to efficiently handle insertions at specific positions and resulting in a concise solution to the problem.
 
-### If you have suggestions for improvement or would like to contribute to this solution, feel free to create a pull request. 🙌😇
+### If you have suggestions for improvement or would like to contribute to this solution, feel free to create a pull request. 🙌
